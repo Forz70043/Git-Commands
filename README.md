@@ -75,4 +75,7 @@ _A list of my commonly used Git commands_
 ### List Config
 `git config --list -[local|global|system]`
 
+### Set Default Editor
+`git config --global core.editor editor_name`
+
 
