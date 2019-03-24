@@ -72,4 +72,7 @@ _A list of my commonly used Git commands_
 | Global | `git config --global` | ~/.gitconfig |
 | Repository | `git --local` | ~/path/YourRepoName/.git\config |
 
+### List Config
+`git config --list -[local|global|system]`
+
 
