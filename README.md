@@ -65,4 +65,11 @@ _A list of my commonly used Git commands_
 | `git diff [source branch] [target branch}` | Preview changes before merging |
 | ` git log --graph --decorate --all -p` | View changes and diff with more detailed |
 
+### Set Config
+| Level | Command | Position |
+| ----- | ------- | -------- |
+| System | `git config --system` | /etc/gitconfig | 
+| Global | `git config --global` | ~/.gitconfig |
+| Repository | `git --local` | ~/path/YourRepoName/.git\config |
+
 
